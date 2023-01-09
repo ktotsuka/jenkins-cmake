@@ -7,7 +7,6 @@ pipeline {
                 echo 'Building'
                 sh 'pwd'
                 sh 'ls -la'
-                sh 'g++ hello.cpp -o hello'
                 cmakeBuild buildType: 'Release', cleanBuild: true, installation: 'InSearchPath'
             }
         }
