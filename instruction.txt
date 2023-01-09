@@ -7,7 +7,7 @@ $ cmake ..
   - Creates bunch of files in this directory
 $ make
   - It generates the executable in this directory
-$ ./basic
+$ ./hello
  
 
  
