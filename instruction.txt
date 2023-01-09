@@ -1,0 +1,13 @@
+From this directory:
+
+$ mkdir build
+$ cd build
+$ cmake ..
+  - You need to point to where CMakeLists.txt is
+  - Creates bunch of files in this directory
+$ make
+  - It generates the executable in this directory
+$ ./basic
+ 
+
+ 
